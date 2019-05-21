@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario de Inscripción</title>
+    <link rel="stylesheet" href="../Css/style.css" media="all"  type="text/css">
+  </head>
+  <body>
+
+<div class="box1">
+<div class="text1">
+    <h1>Take Part On The NASA</h1>
+</div>
+</div>
+<div class="box2">
+<p class="descrip">
+Por favor rellena el siguiente formulario de aplicante laboral al puesto de astronauta en la NASA.
+</p>
+<br><br>
+
+<!--Formulario-->
+
+<form class="nasa" action="mailto:empresacorreo@gmail.com" method="post" enctype="text/plain">
+
+<div class="text">
+<p class="nombre">
+Nombre:
+</p>
+<input type="text" name="nombre" class="field" size="35" maxlength="100">
+<br>
+<p class="apellidos">
+  Apellidos:
+</p>
+<input type="text" name="apellidos" class="field" size="40" maxlength="100">
+<br>
+<p class="correo">
+  Correo Electrónico:
+</p>
+  <input type="email" name="correo" value="@" class="field" size="40" maxlength="120">
+<br>
+<p class="país">
+  País de Residencia:
+</p>
+  <input type="text" name="resi" class="field" size="20" maxlength="50">
+<br>
+<p class="ciudad">
+  Ciudad:
+</p>
+  <input type="text" name="ciudad" class="field" size="20" maxlength="50">
+<br>
+<p class="edad">
+  Edad:
+</p>
+  <input type="text" name="edad" class="field" size="10" maxlength="15">
+<br>
+<p class="Acad">
+  Nivel Academico:
+</p>
+<div class="cuadros">
+<label class="bachi" for="Bachillerato"><input id="Bachillerato" type="checkbox"
+  name="Estudios"> Bachillerato</label><br>
+
+<label class="uni" for="Universitario"><input id="Universitario" type="checkbox"
+    name="Estudios"> Universitario</label><br>
+
+<label class="doctorado" for="Doctorado"><input id="Doctorado" type="checkbox"
+    name="Estudios"> Doctorado</label><br>
+  </div>
+<br>
+<p class="razon">
+Razon para contratarlo?:
+</p>
+<input type="text" name="razon" class="campo" size="140" maxlength="150">
+<br>
+<br>
+
+<!--Botón-->
+
+  <input type="submit" value="Enviar formulario" style="width:200px; height:75px">
+</form>
+</body>
+</html>
